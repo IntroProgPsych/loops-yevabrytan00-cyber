@@ -20,3 +20,14 @@
 
 # Write your code here:
 numbers = [3, 8, 12, 7, 9, 10, 21, 30]
+
+even_numbers = []
+count = 0
+for num in numbers:
+    if num % 2 == 0:
+        even_numbers.append(num)
+        count += 1
+
+print(f"Even numbers: {even_numbers}")
+print(f"Total: {count}")
+
