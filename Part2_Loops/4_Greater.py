@@ -11,3 +11,10 @@
 # 4
 
 # Write your code here:
+n = int(input("Type in a positive integer n : "))
+
+for x in range (1, n):
+    print (x)
+    
+        
+        
